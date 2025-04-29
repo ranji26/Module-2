@@ -23,18 +23,18 @@ To write a Python program to check the relation between two numbers — whether 
 
 ### PROGRAM
 
-```
-
-```
+a=int(input()) <br>
+b=int(input())  <br>
+f=lambda a,b: (f"{a} is smaller than {b}") <br>
+if a<b else(f"{a} is greater than {b}" if(a>b) <br>
+else(f"{a} is equal to{b}")) <br>
+print(f(a,b))
 
 ### OUTPUT
 
-```
+![image](https://github.com/user-attachments/assets/2c1cb221-97d8-4231-9771-0bfd27fd032c)
 
-```
 
 ### RESULT
 
-```
-
-```
+Thus the Python program using a lambda function to compare two numbers and display their relation was executed successfully and the output was verified.
